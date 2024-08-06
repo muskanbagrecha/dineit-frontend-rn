@@ -6,7 +6,6 @@ function StackLayout() {
     <Stack>
       <Stack.Screen name="index" options={{
         header: () => {
-          console.log('Rendering Header');
           return <Header />}
       }} />
     </Stack>
